@@ -19,6 +19,7 @@ To run with the stock Keepkey firmware, you need a display that is:
 You can get either a 5.5 or 3.12 inch display that meets these requirements.
 
 The following two displays work fine:
+
 https://www.aliexpress.com/item/1005006150123067.html
 
 https://www.aliexpress.com/item/1005005985371717.html
@@ -79,9 +80,9 @@ Put the board in DFU mode then connect… (Hold down B0)
 Flash using STM32 Cube Programmer with the following steps. (Uncheck run afterward)
 1. Full flash erase
 2. Flash the bootstrap.bin @ 0x08000000
-3. Flash varent.bin @ 0x08010000 (The logo that is used, you could customise this if you want)
+3. Flash relevant variant.<VarientName>.bin @ 0x08010000 (The logo that is used, you could customise this if you want)
 4. Flash bootloader.bin @ 0x08020000
-5. Flash firmware.bin @ 0x08060000
+5. Flash firmware.keepkey.bin @ 0x08060000
 
 Restart device…
 
