@@ -80,7 +80,7 @@ Put the board in DFU mode then connect… (Hold down B0)
 Flash using STM32 Cube Programmer with the following steps. (Uncheck run afterward)
 1. Full flash erase
 2. Flash the bootstrap.bin @ 0x08000000
-3. Flash relevant variant.<VarientName>.bin @ 0x08010000 (The logo that is used, you could customise this if you want)
+3. Flash relevant variant.VARIANT_NAME.bin @ 0x08010000 (The logo that is used, you could customise this if you want)
 4. Flash bootloader.bin @ 0x08020000
 5. Flash firmware.keepkey.bin @ 0x08060000
 
