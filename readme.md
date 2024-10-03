@@ -29,6 +29,10 @@ The GPIO setup for the Keepkey doesn't make use of an internal pull-up resistor,
 
 Some three pin digital push-buttons include, so can generally be used for this. (Or any two pin button if you add an external 10k pull-up resistor)
 
+## 3d printed case:
+3.12 inch version https://www.printables.com/model/1027257-case-for-keepkey-diy-312-inch-display
+5.5 inch version https://www.printables.com/model/1027254-case-for-keepkey-diy-55-inch-display
+
 # Assembly
 Some of the display modules for don't include pin labels, only numbers.
 
