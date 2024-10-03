@@ -31,6 +31,7 @@ Some three pin digital push-buttons include, so can generally be used for this. 
 
 ## 3d printed case:
 3.12 inch version https://www.printables.com/model/1027257-case-for-keepkey-diy-312-inch-display
+
 5.5 inch version https://www.printables.com/model/1027254-case-for-keepkey-diy-55-inch-display
 
 # Assembly
